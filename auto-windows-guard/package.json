@@ -1,0 +1,9 @@
+{
+  "name": "auto-windows-guard",
+  "version": "1.0.0",
+  "description": "Auto Windows MCP guard: client-side approval gate for high-risk Windows tools in DSH (tools/pre-execute ask)",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "keywords": ["dsh", "approval", "mcp", "windows", "guard"]
+}
