@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "Auto Windows 插件市场",
+    "en": "Auto Windows Plugins"
+  },
+  "description": {
+    "zh": "Auto Windows 项目的 DSH 插件（Windows 操控与安全审批）",
+    "en": "DSH plugins from the Auto Windows project (Windows control \u0026 safety approval)"
+  },
+  "metadata": {
+    "categories": {},
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "auto-windows-guard",
+      "title": {
+        "zh": "Auto Windows 审批守卫",
+        "en": "Auto Windows Guard"
+      },
+      "description": {
+        "zh": "对 Auto Windows MCP 的高危工具（run_powershell/fs_write/fs_move/fs_delete/proc_kill/reg_write/sandbox_restore）弹出 DSH 原生审批卡片，拒绝时调用不到达 MCP Server。实测 DSH 标准模式原生审批不拦 MCP 工具，本插件是唯一屏障。",
+        "en": "Client-side approval gate for high-risk Auto Windows MCP tools via tools/pre-execute ask decisions; blocked calls never reach the MCP server."
+      },
+      "author": "LAOSP9",
+      "homepage": "https://github.com/LAOSP9/dsh-market-auto-windows",
+      "repository": {
+        "url": "https://github.com/LAOSP9/dsh-market-auto-windows",
+        "directory": "auto-windows-guard"
+      },
+      "metadata": {
+        "keywords": ["dsh", "approval", "mcp", "windows", "guard"],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795612949,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/LAOSP9/dsh-market-auto-windows",
+            "commit": "eac3b60404799f69b2d8d985c595cf562b457a6e",
+            "path": "auto-windows-guard"
+          },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
